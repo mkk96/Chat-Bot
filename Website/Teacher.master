@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Teacher.master.cs" Inherits="Teacher" %>
+
+<html lang="en">
+<head>
+  <title>Jamia Millia Islamia</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/design.css">
+  </head>
+
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <form runat="server">
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#"></a>
+    </div>
+    
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="TQuery.aspx">QUERY</a></li>
+        <li><a href="TCPass.aspx">CHANGE PASSWORD</a></li>
+        <li><a href="Logout.aspx">LOGOUT</a></li>
+      </ul>
+    </div>
+  
+  </div>
+  </nav>
+        <div>
+          <asp:ContentPlaceHolder ID="ContentPlaceHolder1"  runat="server"></asp:ContentPlaceHolder>
+      </div>
+    </form>
+</body>
+</html>
